@@ -32,3 +32,4 @@
 - Do not use magic methods
 - Validate input
 - Encode output
+- Use existing Software Design Patterns to solve common problems
