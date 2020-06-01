@@ -1,5 +1,7 @@
 # Coding Best Practices
 
+This is a list of best practices for writing code. Like with many things in life, there will be exceptions to the rules. Therefore, this list is not meant to be followed to the letter. It is meant to be a guideline which helps us write high quality code. Feel free to contribute by creating a Pull Request or an Issue!
+
 - KISS: Keep It Simple, Stupid
 - Prevent code duplication
 - Leave the campground cleaner than you found it
