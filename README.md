@@ -24,7 +24,7 @@ This is a list of best practices for writing code. Like with many things in life
 - Use version control tools
 - Use one monorepo
 - Use constants instead of hardcoded strings
-- User static functions when possible
+- Use static functions when possible
 - Place 1 class in 1 file
 - Keep functions shorter than 10 lines
 - Keep classes shorter than 100 lines
@@ -35,3 +35,6 @@ This is a list of best practices for writing code. Like with many things in life
 - Validate input
 - Encode output
 - Use existing Software Design Patterns to solve common problems
+- Apply the SOLID principles if it prevents code from becoming hard to reuse, change or understand
+- Prevent gold plating: do not apply coding best practices at the cost of simplicity to allow for flexibility in directions that are unlikely
+- Prevent gold plating: do not create more features than strictly necessary
