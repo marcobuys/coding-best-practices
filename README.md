@@ -16,10 +16,10 @@ This is a list of best practices for writing code. Like with many things in life
 - Follow the Twelve-Factor app methodology
 - Do not change code for automated testing purposes: writing tests is not a valid reason for change
 - Do not use Exceptions for control flow
-- Prefer fewer repositories over more 
+- Prefer fewer repositories over more
 - Strive for Continuous Delivery
 - Strive for Continuous Deployment
-- Use Trunk based development
+- Stick to a development workflow that works for you and your customers. Short-lived feature branches can be good.
 - Prevent long lived feature branches
 - Use version control tools
 - Use one monorepo
@@ -28,8 +28,9 @@ This is a list of best practices for writing code. Like with many things in life
 - Place 1 class in 1 file
 - Keep functions shorter than 10 lines
 - Keep classes shorter than 100 lines
-- Adhere to PSR standards
+- Adhere to a coding standards and have your CI tool perform linting checks automatically
 - Do not use comments: easily readable code does not need comments
+- If you do need comments, only explain why something was done, the code tells you how it was done
 - Write code that your IDE can follow
 - Do not use magic methods
 - Validate input
@@ -38,3 +39,4 @@ This is a list of best practices for writing code. Like with many things in life
 - Apply the SOLID principles if it prevents code from becoming hard to reuse, change or understand
 - Prevent gold plating: do not apply coding best practices at the cost of simplicity to allow for flexibility in directions that are unlikely
 - Prevent gold plating: do not create more features than strictly necessary
+- Create wrappers around external libraries or dependencies in order
