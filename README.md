@@ -39,4 +39,4 @@ This is a list of best practices for writing code. Like with many things in life
 - Apply the SOLID principles if it prevents code from becoming hard to reuse, change or understand
 - Prevent gold plating: do not apply coding best practices at the cost of simplicity to allow for flexibility in directions that are unlikely
 - Prevent gold plating: do not create more features than strictly necessary
-- Create wrappers around external libraries or dependencies in order
+- Create wrappers around external services or dependencies in order to decouple them from your application
