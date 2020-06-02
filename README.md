@@ -19,8 +19,8 @@ This is a list of best practices for writing code. Like with many things in life
 - Prefer fewer repositories over more
 - Strive for Continuous Delivery
 - Strive for Continuous Deployment
-- Stick to a development workflow that works for you and your customers. Short-lived feature branches can be good.
-- Prevent long lived feature branches
+- Stick to a development workflow that works for you and your stakeholders
+- Prevent Long-lived feature branches. Short-lived feature branches can be good
 - Use version control tools
 - Use one monorepo
 - Use constants instead of hardcoded strings
@@ -28,7 +28,8 @@ This is a list of best practices for writing code. Like with many things in life
 - Place 1 class in 1 file
 - Keep functions shorter than 10 lines
 - Keep classes shorter than 100 lines
-- Adhere to a coding standards and have your CI tool perform linting checks automatically
+- Adhere to a coding standard 
+- Have your CI tool perform linting checks automatically
 - Do not use comments: easily readable code does not need comments
 - If you do need comments, only explain why something was done, the code tells you how it was done
 - Write code that your IDE can follow
