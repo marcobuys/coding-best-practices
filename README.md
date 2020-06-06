@@ -38,6 +38,9 @@ This is a list of best practices for writing code. Like with many things in life
 - Prevent gold plating: do not create more features than strictly necessary
 - Create wrappers around external services or dependencies in order to decouple them from your application
 - Use meaningful names for everything you name like classes, functions and variables
+- Use static methods when possible
+- Use private methods when possible
+- Use protected methods when possible and private is not possible
 
 **Version control**
 - Use version control tools
