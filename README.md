@@ -41,6 +41,7 @@ This is a list of best practices for writing code. Like with many things in life
 - Use static methods when possible
 - Use private methods when possible
 - Use protected methods when possible and private is not possible
+- Only write an automated test when it will have a clear and significant positive ROI
 
 **Version control**
 - Use version control tools
