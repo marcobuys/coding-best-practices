@@ -20,7 +20,6 @@ This is a list of best practices for writing code. Like with many things in life
 - Strive for Continuous Deployment
 - Stick to a development workflow that works for you and your stakeholders
 - Use constants instead of hardcoded strings
-- Use static functions when possible
 - Place 1 class in 1 file
 - Keep functions shorter than 10 lines
 - Keep classes shorter than 100 lines
