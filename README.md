@@ -8,7 +8,6 @@ This is a list of best practices for writing code. Like with many things in life
 - Prioritize readability over performance
 - Prefer Object Oriented code over Procedural code
 - Stand on the shoulders of giants: do not reinvent the wheel
-- Only use interfaces when there is more than 1 implementation
 - Prefer typed code over untyped code
 - Prefer Strong typing over Weak typing
 - Prefer Static typing over Dynamic typing
@@ -20,15 +19,11 @@ This is a list of best practices for writing code. Like with many things in life
 - Strive for Continuous Deployment
 - Stick to a development workflow that works for you and your stakeholders
 - Use constants instead of hardcoded strings
-- Place 1 class in 1 file
-- Keep functions shorter than 10 lines
-- Keep classes shorter than 100 lines
 - Adhere to a coding standard 
 - Have your CI tool perform linting checks automatically
 - Do not use comments: easily readable code does not need comments
 - If you do need comments, only explain why something was done, the code tells you how it was done
 - Write code that your IDE can follow
-- Do not use magic methods
 - Validate input
 - Encode output
 - Use existing Software Design Patterns to solve common problems
@@ -37,10 +32,25 @@ This is a list of best practices for writing code. Like with many things in life
 - Prevent gold plating: do not create more features than strictly necessary
 - Create wrappers around external services or dependencies in order to decouple them from your application
 - Use meaningful names for everything you name like classes, functions and variables
+- Only write an automated test when it will have a clear and significant positive ROI
+
+**Classes**
+- Place 1 class in 1 file
+- Keep classes shorter than 100 lines
+- Only use interfaces when there is more than 1 implementation
+
+**Methods**
 - Use static methods when possible
 - Use private methods when possible
 - Use protected methods when possible and private is not possible
-- Only write an automated test when it will have a clear and significant positive ROI
+- Do not use magic methods
+- Use at most 2 parameters
+- Return at most 1 thing
+- Do not pass primitive types by reference
+- Keep functions shorter than 10 lines
+- Avoid nesting code more than 2 levels deep
+- Return early
+- Add additional variables when they improve readability
 
 **Version control**
 - Use version control tools
