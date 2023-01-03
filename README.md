@@ -33,6 +33,7 @@ This is a list of best practices for writing code. Like with many things in life
 - Create wrappers around external services or dependencies in order to decouple them from your application
 - Use meaningful names for everything you name like classes, functions and variables
 - Only write an automated test when it will have a clear and significant positive ROI
+- Fail Fast
 
 **Classes**
 - Place 1 class in 1 file
